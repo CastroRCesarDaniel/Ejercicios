@@ -1,0 +1,12 @@
+package javaapplication30;
+public class JavaApplication30 {
+    public static void main(String[] args) {
+        double dinero = 1000;
+        int mes = 0;
+        while (mes<=12){
+            dinero = dinero / 1.02;
+            mes++;
+        }
+        System.out.println(dinero);
+    }
+}
